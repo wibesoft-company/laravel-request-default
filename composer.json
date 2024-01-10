@@ -1,0 +1,46 @@
+{
+    "name": "wibesoft-company/laravel-request-default",
+    "description": "A Laravel library to set default values for request parameters.",
+    "type": "library",
+    "homepage": "https://github.com/wibesoft-company/laravel-request-default",
+    "license": "MIT",
+    "keywords": [
+        "oktayyilmaz",
+        "wibesoft",
+        "laravel",
+        "laravel-request-default",
+        "request",
+        "default",
+        "validation",
+        "form"
+    ],
+    "authors": [
+        {
+            "name": "oktayyilmaz",
+            "email": "oktayyilmaz090@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "illuminate/http": ">=6.0",
+        "illuminate/support": ">=6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WibesoftCompany\\LaravelRequestDefault\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WibesoftCompany\\LaravelRequestDefault\\RequestDefaultServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
